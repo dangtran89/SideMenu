@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BTM</string>
+    <string name="action_settings">設定</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>部課コード管理</item>
+        <item>社員管理</item>
+        <item>要約・請求管理</item>
+        <item>ログアウト</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/department</item>
+        <item>@drawable/staff</item>
+        <item>@drawable/trip</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="content_image">Image</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="forgot_pass">パスワードを忘れる</string>
+    <string name="btn_login">Sign In</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_department_name">部署名</string>
+    <string name="hint_sub_department_name">課署名</string>
+    <string name="hint_department_new_name">新しい部署名</string>
+    <string name="hint_department_old_name">現在の部署名</string>
+    <string name="hint_password">パスワード</string>
+    <string name="progress">Refresh</string>
+    <string name="Search">検索</string>
+    <string name="search_partner">出張者検索</string>
+    <string name="Add_User">出張者追加</string>
+    <string name="add">追加</string>
+    <string name="remove">削除</string>
+    <string name="delete">削除</string>
+    <string name="edit">修正</string>
+    <string name="change_pass">パスワードの変更</string>
+    <string name="delete_success">削除しました。</string>
+    <string name="delete_fail">削除は失敗しました。</string>
+    <string name="delete_fail_contain_sub">所属する課があるため、まず課を削除して下さい。</string>
+    <string name="ok_text">Ok</string>
+    <string name="warning">Warning</string>
+    <string name="confirm_delete">削除は宜しいでしょうか。</string>
+    <string name="change_admin">管理者へ変更</string>
+    <string name="change_normal">一般ユーザーへ変更</string>
+    <string name="change_role_success">変更しました。</string>
+    <string name="change_role_fail">変更はできません。</string>
+    <string name="menu_done">完了</string>
+
+    <!-- Screen Title -->
+    <string name="screen_department">部署名</string>
+    <string name="screen_sub_department">課署名</string>
+    <string name="screen_staff_list">社員メンテナンス</string>
+    <string name="screen_staff_add_new">社員登録</string>
+    <string name="screen_staff_edit">社員詳細</string>
+    <string name="screen_staff_change_pass">パスワード変更</string>
+    <string name="screen_travel_add_new">出張登録</string>
+    <string name="screen_travel_detail">出張登録詳細</string>
+    <string name="screen_travel_detail_search_user">出張者検索</string>
+    <string name="screen_travel_list">出張者</string>
+    <string name="screen_travel_filter">出張照会一覧</string>
+    <string name="dialog_department_add">部署名登録</string>
+    <string name="dialog_calendar">カーレンダ</string>
+    <string name="dialog_department_edit">部署修正</string>
+    <string name="dialog_sub_department_add">課署名登録</string>
+    <string name="dialog_sub_department_edit">課署名修正</string>
+    <string name="search_title">検索</string>
+
+    <!-- fragment_staff_add_new label -->
+    <string name="name1_label">社員名(漢字) 全角漢字（各15文字以内） </string>
+    <string name="name2_label">社員名(フリガナ) 全角漢字（各15文字以内） </string>
+    <string name="name3_label">社員名(ローマ字 全角漢字（各15文字以内） </string>
+    <string name="email_label">メールアドレス</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">パスワード 半角（15文字以内） </string>
+    <string name="birthday_label">生年月日</string>
+    <string name="gender_label">性別</string>
+    <string name="address_label">アドレス</string>
+    <string name="phone_label">電話番号</string>
+    <string name="ANA_label">社員マイレージ番号[ANA]</string>
+    <string name="JAL_label">社員マイレージ番号[JAL]</string>
+    <string name="division_label">所属部署</string>
+    <string name="sub_division_label">所属課署</string>
+    <string name="txt_male">男性</string>
+    <string name="txt_female">女性</string>
+    <string name="hint_name_first_name">名</string>
+    <string name="hint_name_last_name">姓</string>
+    <string name="btn_register">登録</string>
+    <string name="btn_edit">修正</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="msg_cannot_create_user">社員登録できません。</string>
+    <string name="msg_cannot_create_travel">出張登録できません。</string>
+    <string name="msg_username_duplicate">ユーザーナームは既に登録されました。別のユーザーナームを登録してください。</string>
+    <string name="msg_email_duplicate">メールアドレスは既に登録されました。別のメールアドレスを登録してください。</string>
+    <string name="msg_create_username_success">社員登録は完了しました。!</string>
+    <string name="msg_create_travel_success">出張登録は完了しました。</string>
+    <string name="msg_change_pass_success">パスワード変更は完了しました。</string>
+    <string name="msg_search_staff_fail">社員を見つけませんでした。</string>
+
+    <!-- fragment_staff_change_pass -->
+    <string name="hint_old_pass">現在のパスワード</string>
+    <string name="hint_new_pass">新パスワード</string>
+    <string name="hint_confirm_pass">新パスワード(確認)</string>
+    <string name="msg_wrong_pass">現在のパスワードは間違いました。</string>
+    <string name="msg_password_notmatch">新パスワード 欄が 新パスワード(確認) 欄と一致しません。</string>
+
+    <!-- fragment_travel_add_new -->
+    <string name="from_time_label">出張開始日</string>
+    <string name="to_time_label">出張終了日</string>
+    <string name="purpose_label">出張目的</string>
+    <string name="description_label">出張説明</string>
+    <string name="preference_label">出張備考</string>
+    <string name="phone_travel_label">電話番号 (format : 03&#8211;123&#8211;4567)</string>
+    <string name="btn_next">Next</string>
+    <!-- fragment_travel_detail -->
+    <string name="travel_detail_label">出張詳細</string>
+    <string name="fromtime_detail_label">出張開始日</string>
+    <string name="totime_detail_label">出張終了日</string>
+    <string name="purpose_detail_label">出張目的</string>
+    <string name="description_detail_label">出張説明</string>
+    <string name="preference_detail_label">説明参考</string>
+    <string name="phone_detail_label">連絡先電話番号</string>
+    <string name="holder_detail_label">申込者</string>
+    <string name="holder_division_detail_label">部署/課名</string>
+    <string name="holder_name_detail_label">名前: </string>
+    <string name="holder_email_detail_label">メールアドレス: </string>
+    <string name="partner_detail_label">出張者</string>
+    <string name="package_detail_label">パック（10日前）</string>
+    <string name="plane_detail_label">航空券</string>
+    <string name="train_detail_label">新幹線</string>
+    <string name="travel_detail_btn_search">検索</string>
+    <string name="travel_detail_btn_register">登録</string>
+    <string name="travel_detail_btn_edit">修正</string>
+    <string name="travel_detail_checkbox_join">ご自身が出張される場合はこち</string>
+    <string name="travel_status_label">航空券 or 新幹線</string>
+    <string name="travel_status_transactionid_label">出張ID</string>
+    <string name="travel_status_departure_label">往路</string>
+    <string name="travel_status_destination_label">復路</string>
+    <!-- fragment_travel_confirmation -->
+    <string name="travel_confirm_traveler_label">出張者</string>
+    <string name="travel_detail_btn_train">新幹線</string>
+    <string name="travel_detail_btn_aircraft">航空券</string>
+    <string name="travel_detail_btn_package">パック（10日前）</string>
+    <string name="travel_detail_btn_apply">申請する</string>
+    <string name="travel_detail_btn_approve">承認する</string>
+    <string name="travel_detail_btn_reject">却下する</string>
+
+    <!-- fragment_travel_filter -->
+    <string name="travel_filter_traveler_name_label">出張者名</string>
+    <string name="travel_filter_purpose_label">出張目的</string>
+    <string name="travel_filter_fail">結果がありません。</string>
+    <!-- fragment_travel_list -->
+    <string name="status_ok">承認済み</string>
+    <string name="status_pending_apply">未申請</string>
+    <string name="status_pending_approve">承認待ち</string>
+    <string name="menu_update">修正</string>
+    <string name="menu_delete">削除</string>
+    <string name="label_id">ID</string>
+    <string name="label_status">ステータス</string>
+    <string name="label_purpose">目的</string>
+    <string name="label_fromtime">出張開始</string>
+    <string name="label_totime">出張終了</string>
+    <string name="dialog_travel_filter">ステータスの選択</string>
+    <string name="filter_apply">申請待ち</string>
+    <string name="filter_approve">承認待ち</string>
+    <string name="filter_cancel">却下</string>
+    <string name="filter_ok">承認済み</string>
+    <string name="filter_none">すべて</string>
+
+</resources>

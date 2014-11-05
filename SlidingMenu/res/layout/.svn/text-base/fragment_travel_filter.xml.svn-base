@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/llFromtime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from_time_label"
+                android:textSize="@dimen/text_size" >
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <Button
+                    android:id="@+id/btnFromTime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/ed_travel_filter_editext_height" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTotime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llFromtime"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to_time_label"
+                android:textSize="@dimen/text_size" >
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <Button
+                    android:id="@+id/btnToTime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/ed_travel_filter_editext_height" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTravelerName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llTotime"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/travel_filter_traveler_name_label"
+                android:textSize="@dimen/text_size" >
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <EditText
+                    android:id="@+id/edTravelerName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/ed_travel_filter_editext_height"
+                    android:inputType="text" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPurpose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llTravelerName"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/travel_filter_purpose_label"
+                android:textSize="@dimen/text_size" >
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <EditText
+                    android:id="@+id/edPurpose"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/ed_travel_filter_editext_height"
+                    android:inputType="text" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llPurpose"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnNext"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/btn_travel_filter_width"
+                android:layout_height="@dimen/btn_travel_filter_height"
+                android:text="@string/btn_next" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

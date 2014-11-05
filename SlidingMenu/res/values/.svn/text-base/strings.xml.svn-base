@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BTM</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Department</item>
+        <item>Staff</item>
+        <item>Travel</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/department</item>
+        <item>@drawable/staff</item>
+        <item>@drawable/trip</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="content_image">Image</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_department_name">Name</string>
+    <string name="hint_sub_department_name">Name</string>
+    <string name="hint_department_new_name">New Name</string>
+    <string name="hint_department_old_name">Old Name</string>
+    <string name="hint_password">Password</string>
+    <string name="progress">Refresh</string>
+    <string name="Search">Search</string>
+    <string name="search_partner">Partner</string>
+    <string name="Add_User">Add User</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="change_pass">Change Password</string>
+    <string name="delete_success">Success</string>
+    <string name="delete_fail">Fail to delete!</string>
+    <string name="delete_fail_contain_sub">Fail to delete! This department contain sub department!</string>
+    <string name="ok_text">Ok</string>
+    <string name="warning">Warning</string>
+    <string name="confirm_delete">Do you want to delete</string>
+    <string name="change_admin">Change to Admin</string>
+    <string name="change_normal">Change to Normal User</string>
+    <string name="change_role_success">Success!</string>
+    <string name="change_role_fail">Fail to change role!</string>
+    <string name="menu_done">Done</string>
+    <string name="error_network">Cannot connect to server!</string>
+
+    <!-- Screen Title -->
+    <string name="screen_department">Department</string>
+    <string name="screen_sub_department">SubDepartment</string>
+    <string name="screen_staff_list">Staff</string>
+    <string name="screen_staff_add_new">New User</string>
+    <string name="screen_staff_edit">Staff Detail</string>
+    <string name="screen_staff_change_pass">Change Password</string>
+    <string name="screen_travel_add_new">Register Travel</string>
+    <string name="screen_travel_webview">Travel</string>
+    <string name="screen_travel_detail">Travel Detail</string>
+    <string name="screen_travel_detail_search_user">Staff List</string>
+    <string name="screen_travel_list">Staff</string>
+    <string name="screen_travel_filter">Travel Search</string>
+    <string name="dialog_department_add">New Department</string>
+    <string name="dialog_travel_filter">Select Type</string>
+    <string name="dialog_calendar">Calendar</string>
+    <string name="dialog_department_edit">Edit Department</string>
+    <string name="dialog_sub_department_add">New Sub Department</string>
+    <string name="dialog_sub_department_edit">Edit Sub Department</string>
+    <string name="search_title">Search</string>
+
+    <!-- fragment_staff_add_new label -->
+    <string name="name1_label">Name1 (15 char one byte)</string>
+    <string name="name2_label">Name2 (15 char one byte)</string>
+    <string name="name3_label">Name3 (15 char one byte)</string>
+    <string name="email_label">Email</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password (15 char one byte)</string>
+    <string name="birthday_label">Birthday</string>
+    <string name="gender_label">Gender</string>
+    <string name="address_label">Address</string>
+    <string name="phone_label">Phone</string>
+    <string name="ANA_label">ANA</string>
+    <string name="JAL_label">JAL</string>
+    <string name="division_label">Department</string>
+    <string name="sub_division_label">Sub Department</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="hint_name_first_name">First Name</string>
+    <string name="hint_name_last_name">Last Name</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="msg_cannot_create_user">Cannot create new user!</string>
+    <string name="msg_cannot_create_travel">Cannot create new travel!</string>
+    <string name="msg_username_duplicate">Username already exists!</string>
+    <string name="msg_email_duplicate">Email already exists!</string>
+    <string name="msg_create_username_success">Successful!</string>
+    <string name="msg_create_travel_success">Successful!</string>
+    <string name="msg_change_pass_success">Successful!</string>
+    <string name="msg_search_staff_fail">Cannot find any staff!</string>
+
+    <!-- fragment_staff_change_pass -->
+    <string name="hint_old_pass">Old Password</string>
+    <string name="hint_new_pass">New Password</string>
+    <string name="hint_confirm_pass">Confirm Password</string>
+    <string name="msg_wrong_pass">Your old password is incorrect!</string>
+    <string name="msg_password_notmatch">Password and confirm passord does not match!</string>
+
+    <!-- fragment_travel_add_new -->
+    <string name="from_time_label">From Time</string>
+    <string name="to_time_label">To Time</string>
+    <string name="purpose_label">Purpose</string>
+    <string name="description_label">Description</string>
+    <string name="preference_label">Preference</string>
+    <string name="phone_travel_label">Phone (format : 03&#8211;123&#8211;4567)</string>
+    <string name="btn_next">Next</string>
+    <!-- fragment_travel_detail -->
+    <string name="travel_detail_label">Travel Detail</string>
+    <string name="fromtime_detail_label">From Time: </string>
+    <string name="totime_detail_label">To Time: </string>
+    <string name="purpose_detail_label">Purpose: </string>
+    <string name="description_detail_label">Description: </string>
+    <string name="preference_detail_label">Preference: </string>
+    <string name="phone_detail_label">Phone: </string>
+    <string name="holder_detail_label">Registrants</string>
+    <string name="holder_division_detail_label">Division: </string>
+    <string name="holder_name_detail_label">Name: </string>
+    <string name="holder_email_detail_label">Email: </string>
+    <string name="partner_detail_label">Traveler</string>
+    <string name="package_detail_label">Package Info</string>
+    <string name="plane_detail_label">Plane Info</string>
+    <string name="train_detail_label">Train Info</string>
+    <string name="travel_detail_btn_search">Search</string>
+    <string name="travel_detail_btn_register">Register</string>
+    <string name="travel_detail_btn_edit">Edit</string>
+    <string name="travel_detail_checkbox_join">Check if holder is join to travel</string>
+    <string name="travel_status_label">Aircraft or Train Info</string>
+    <string name="travel_status_transactionid_label">Transaction ID </string>
+    <string name="travel_status_departure_label">Departure </string>
+    <string name="travel_status_destination_label">Destination </string>
+    <string name="ll_departure_label">Departure </string>
+    <string name="ll_destination_label">Destination </string>
+
+    <!-- fragment_travel_confirmation -->
+    <string name="travel_confirm_traveler_label">Traveler</string>
+    <string name="travel_detail_btn_train">Train</string>
+    <string name="travel_detail_btn_package">Package</string>
+    <string name="travel_detail_btn_apply">Apply</string>
+    <string name="travel_detail_btn_approve">Approve</string>
+    <string name="travel_detail_btn_reject">Reject</string>
+    <string name="travel_detail_btn_aircraft">Aircraft</string>
+    <!-- fragment_travel_filter -->
+    <string name="travel_filter_traveler_name_label">Traveler Name</string>
+    <string name="travel_filter_purpose_label">Purpose</string>
+    <string name="travel_filter_fail">No result match</string>
+    <!-- fragment_travel_list -->
+    <string name="status_ok">OK</string>
+    <string name="status_pending_apply">Not Apply</string>
+    <string name="status_pending_approve">Not Approve</string>
+    <string name="status_cancel">Canceled</string>
+    <string name="menu_update">Update</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_filter">Filter</string>
+    <string name="label_id">Deal Code</string>
+    <string name="label_status">Status</string>
+    <string name="label_purpose">Purpose</string>
+    <string name="label_fromtime">FromTime</string>
+    <string name="label_totime">ToTime</string>
+    <string name="filter_apply">Not Apply</string>
+    <string name="filter_approve">Not Approve</string>
+    <string name="filter_cancel">Canceled</string>
+    <string name="filter_ok">Approved</string>
+    <string name="filter_none">None</string>
+
+</resources>

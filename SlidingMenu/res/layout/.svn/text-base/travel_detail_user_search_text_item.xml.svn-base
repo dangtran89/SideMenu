@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/listview_text_item_height"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvDivision"
+        android:layout_width="@dimen/travel_detail_textview_item_label_width"
+        android:layout_height="@dimen/listview_text_item_height"
+        android:layout_marginRight="@dimen/textview_division_margin_right"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/text_size_listview_item" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="@dimen/travel_detail_textview_item_label_width"
+        android:layout_height="@dimen/listview_text_item_height"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/text_size_listview_item" />
+
+    <Button
+        android:id="@+id/btnAddRemove"
+        android:layout_width="@dimen/btn_add_remove_listview_width"
+        android:layout_height="@dimen/btn_add_remove_listview_height"
+        android:text="@string/edit" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login" >
+
+    <RelativeLayout
+        android:id="@+id/llLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/login_layout_margin_top"
+        android:padding="@dimen/login_layout_pading" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_cen" />
+
+        <EditText
+            android:id="@+id/edUsername"
+            android:layout_width="@dimen/ed_username_width"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ed_username_margin_top"
+            android:hint="@string/hint_username"
+            android:inputType="text"
+            android:text="dangtran261189@gmail.com"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:text="123456"
+            android:id="@+id/edPassword"
+            android:layout_width="@dimen/ed_password_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edUsername"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ed_password_margin_top"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
+        <EditText
+            android:text="t-btm"
+            android:id="@+id/edCompanyName"
+            android:layout_width="@dimen/ed_company_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ed_company_margin_top"
+            android:hint="@string/hint_company_name"
+            android:inputType="text"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="@dimen/btn_login_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edCompanyName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/btn_login_margin_top"
+            android:text="@string/btn_login"
+            android:textColor="@color/white" />
+
+        <!-- <TextView
+            android:id="@+id/tvForgotpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:autoLink="all"
+            android:text="@string/forgot_pass"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" >
+        </TextView> -->
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_below="@+id/llLogin"
+        android:id="@+id/progress"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:focusable="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

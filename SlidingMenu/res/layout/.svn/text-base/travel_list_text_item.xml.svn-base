@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/listview_text_item_height"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvIdTravel"
+        android:layout_width="@dimen/travel_text_item_width_big"
+        android:layout_height="@dimen/listview_text_item_height"
+        android:text="@string/label_id" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="@dimen/travel_text_item_width_big"
+        android:layout_height="@dimen/listview_text_item_height"
+        android:layout_marginLeft="@dimen/travel_list_item_margin_left"
+        android:text="@string/label_purpose" />
+
+    <TextView
+        android:id="@+id/tvFromTime"
+        android:layout_width="@dimen/travel_text_item_width_big"
+        android:layout_height="@dimen/listview_text_item_height"
+        android:layout_marginLeft="@dimen/travel_list_item_margin_left"
+        android:text="@string/label_fromtime" />
+
+    <TextView
+        android:id="@+id/tvToTime"
+        android:layout_width="@dimen/travel_text_item_width_big"
+        android:layout_height="@dimen/listview_text_item_height"
+        android:layout_marginLeft="@dimen/travel_list_item_margin_left"
+        android:text="@string/label_totime" />
+
+</LinearLayout>

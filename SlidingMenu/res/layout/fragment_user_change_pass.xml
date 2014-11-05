@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialog_add_department_height" >
+
+    <EditText
+        android:id="@+id/edOldpassword"
+        android:layout_width="@dimen/ed_change_pass_width"
+        android:layout_height="@dimen/ed_change_pass_height"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/hint_old_pass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edNewpassword"
+        android:layout_width="@dimen/ed_change_pass_width"
+        android:layout_height="@dimen/ed_change_pass_height"
+        android:layout_below="@+id/edOldpassword"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/hint_new_pass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edConfirmpassword"
+        android:layout_width="@dimen/ed_change_pass_width"
+        android:layout_height="@dimen/ed_change_pass_height"
+        android:layout_below="@+id/edNewpassword"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/hint_confirm_pass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="@dimen/btn_change_pass_width"
+        android:layout_height="@dimen/btn_change_pass_height"
+        android:layout_below="@+id/edConfirmpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/btn_change_pass_top"
+        android:text="@string/ok_text" />
+
+</RelativeLayout>

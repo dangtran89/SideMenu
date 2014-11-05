@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialog_add_department_height" >
+
+    <EditText
+        android:id="@+id/edDepartmentName"
+        android:layout_width="@dimen/ed_sub_department_name_width"
+        android:layout_height="@dimen/ed_sub_department_name_height"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/hint_sub_department_name"
+        android:inputType="text" />
+
+ <!--    <Spinner
+        android:id="@+id/spnDepartment"
+        android:layout_width="@dimen/spinner_sub_department_name_width"
+        android:layout_height="@dimen/spinner_sub_department_name_height"
+        android:layout_below="@+id/edDepartmentName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spinner_sub_deparment_margin_top" /> -->
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="@dimen/btn_add_sub_deparment_width"
+        android:layout_height="@dimen/btn_add_sub_deparment_height"
+        android:layout_below="@+id/edDepartmentName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/btn_add_sub_deparment_margin_top"
+        android:text="@string/ok_text" />
+
+</RelativeLayout>

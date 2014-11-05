@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/listview_text_item_height" >
+
+    <TextView
+        android:id="@+id/tvSubDepartmentName"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/listview_text_item_height"
+        android:layout_marginRight="@dimen/btn_delete_item_listview_width"
+        android:textSize="@dimen/text_size_listview_item" />
+
+    <Button
+        android:id="@+id/btnSubDepartmentDelete"
+        android:layout_width="@dimen/btn_delete_item_listview_width"
+        android:layout_height="@dimen/btn_delete_item_listview_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/delete"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnSubDepartmentEdit"
+        android:layout_width="@dimen/btn_delete_item_listview_width"
+        android:layout_height="@dimen/btn_delete_item_listview_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/edit"
+        android:visibility="gone" />
+
+</RelativeLayout>
